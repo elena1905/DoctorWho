@@ -96,7 +96,8 @@ namespace DoctorWho
             steeringBehaviours = new SteeringBehaviours(this);
             drawAxis = false;
             Solid = true;
-            modelName = "fighter";
+            modelName = @"Models\Tardis";
+            //modelName = "fighter";
         }
 
         public override void LoadContent()

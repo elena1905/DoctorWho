@@ -47,7 +47,7 @@ namespace DoctorWho
                 new VertexPositionTexture(new Vector3(width, 0, -height), new Vector2(twidth, 0))
             };
 
-            Texture2D portrait = XNAGame.Instance().Content.Load<Texture2D>("Ground");
+            Texture2D portrait = XNAGame.Instance().Content.Load<Texture2D>(@"Textures\Ground");
             float aspectRatio = graphics.GraphicsDevice.Viewport.AspectRatio;
 
             basicEffect = new BasicEffect(graphics.GraphicsDevice);

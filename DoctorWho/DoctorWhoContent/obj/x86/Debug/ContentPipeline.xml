@@ -2,315 +2,224 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>138.mp3</Source>
-      <Name>138</Name>
+      <Source>Models\Tardis.FBX</Source>
+      <Name>Models\Tardis</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Tardis.xnb</Output>
+      <Time>2013-02-17T15:47:13.3546862+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Tardis_0.xml</Key>
+        <Value>2013-02-17T16:09:41.8579948+00:00</Value>
+      </Dependency>
+      <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\FBX\D4922827\Tardis.fbm\TardisImage_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Tardis.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Tardis_0.xml</Output>
+      <Time>2013-02-17T15:47:13.3546862+00:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\D4922827\Tardis.fbm\TardisImage.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\FBX\D4922827\Tardis.fbm\TardisImage_0.xnb</Output>
+      <Time>2013-02-17T16:09:41.5459943+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\138.mp3</Source>
+      <Name>Sounds\138</Name>
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\138.xnb</Output>
-      <Extra>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\138.wma</Extra>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Sounds\138.xnb</Output>
+      <Extra>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Sounds\138.wma</Extra>
       <Time>2013-02-17T10:17:36.1830082+00:00</Time>
     </Item>
     <Item>
-      <Source>BuckRogersDVD-box.jpg</Source>
-      <Name>BuckRogersDVD-box</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\BuckRogersDVD-box.xnb</Output>
-      <Time>2013-02-17T10:17:36.1830082+00:00</Time>
-    </Item>
-    <Item>
-      <Source>EA_Fury_Tiney_Pa1.JPG</Source>
-      <Name>EA_Fury_Tiney_Pa1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\EA_Fury_Tiney_Pa1.xnb</Output>
-      <Time>2013-02-17T10:17:36.1930082+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Fin1.JPG</Source>
-      <Name>Fin1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Fin1.xnb</Output>
-      <Time>2013-02-17T10:17:36.1930082+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Ground.bmp</Source>
-      <Name>Ground</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Ground.xnb</Output>
-      <Time>2013-02-17T10:17:36.1930082+00:00</Time>
-    </Item>
-    <Item>
-      <Source>mainePane1.JPG</Source>
-      <Name>mainePane1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\mainePane1.xnb</Output>
-      <Time>2013-02-17T10:17:37.9030106+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Mainhul1.JPG</Source>
-      <Name>Mainhul1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Mainhul1.xnb</Output>
-      <Time>2013-02-17T10:17:36.1930082+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Metal_Corrogated_Rust.jpg</Source>
-      <Name>Metal_Corrogated_Rust</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Metal_Corrogated_Rust.xnb</Output>
-      <Time>2013-02-17T10:17:36.2030082+00:00</Time>
-    </Item>
-    <Item>
-      <Source>oldGround.bmp</Source>
-      <Name>oldGround</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\oldGround.xnb</Output>
-      <Time>2013-02-17T10:17:37.9130106+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Tail1.JPG</Source>
-      <Name>Tail1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Tail1.xnb</Output>
-      <Time>2013-02-17T10:17:37.8930105+00:00</Time>
-    </Item>
-    <Item>
-      <Source>thor.jpg</Source>
-      <Name>thor</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\thor.xnb</Output>
-      <Time>2013-02-17T10:17:37.9730107+00:00</Time>
-    </Item>
-    <Item>
-      <Source>UnderHull1.JPG</Source>
-      <Name>UnderHull1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\UnderHull1.xnb</Output>
-      <Time>2013-02-17T10:17:37.8930105+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Wing1.JPG</Source>
-      <Name>Wing1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Wing1.xnb</Output>
-      <Time>2013-02-17T10:17:37.9030106+00:00</Time>
-    </Item>
-    <Item>
-      <Source>SkySphere\SkySphereTexture.dds</Source>
-      <Name>SkySphere\SkySphereTexture</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\SkySphere\SkySphereTexture.xnb</Output>
-      <Time>2013-02-17T10:17:37.8530105+00:00</Time>
-    </Item>
-    <Item>
-      <Source>fighter.x</Source>
-      <Name>fighter</Name>
+      <Source>Models\fighter.x</Source>
+      <Name>Models\fighter</Name>
       <Importer>XImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\fighter.xnb</Output>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\fighter.xnb</Output>
       <Time>2013-02-17T10:17:37.9030106+00:00</Time>
       <Dependency>
-        <Key>obj\x86\Debug\fighter_0.xml</Key>
-        <Value>2013-02-17T10:30:00.3952131+00:00</Value>
+        <Key>obj\x86\Debug\Models\fighter_0.xml</Key>
+        <Value>2013-02-17T16:10:47.6743429+00:00</Value>
       </Dependency>
-      <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\thor_0.xnb</Request>
+      <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\thor_0.xnb</Request>
     </Item>
     <Item>
-      <Source>Ship1.fbx</Source>
-      <Name>Ship1</Name>
+      <Source>Models\Ship1.fbx</Source>
+      <Name>Models\Ship1</Name>
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Ship1.xnb</Output>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Ship1.xnb</Output>
       <Time>2013-02-17T10:17:36.2330082+00:00</Time>
       <Dependency>
-        <Key>obj\x86\Debug\Ship1_0.xml</Key>
-        <Value>2013-02-17T10:30:01.3652145+00:00</Value>
+        <Key>obj\x86\Debug\Models\Ship1_0.xml</Key>
+        <Value>2013-02-17T16:11:11.2841985+00:00</Value>
       </Dependency>
-      <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Metal_Corrogated_Rust_0.xnb</Request>
+      <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Metal_Corrogated_Rust_0.xnb</Request>
     </Item>
     <Item>
-      <Source>ship2.fbx</Source>
-      <Name>ship2</Name>
+      <Source>Models\ship2.fbx</Source>
+      <Name>Models\ship2</Name>
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\ship2.xnb</Output>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\ship2.xnb</Output>
       <Time>2013-02-17T10:17:37.9630106+00:00</Time>
       <Dependency>
-        <Key>obj\x86\Debug\ship2_0.xml</Key>
-        <Value>2013-02-17T10:30:02.2952158+00:00</Value>
+        <Key>obj\x86\Debug\Models\ship2_0.xml</Key>
+        <Value>2013-02-17T16:11:33.4299525+00:00</Value>
       </Dependency>
     </Item>
     <Item>
-      <Source>Shuttle.fbx</Source>
-      <Name>Shuttle</Name>
+      <Source>Models\Shuttle.fbx</Source>
+      <Name>Models\Shuttle</Name>
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Shuttle.xnb</Output>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Shuttle.xnb</Output>
       <Time>2013-02-17T10:17:36.2830083+00:00</Time>
       <Dependency>
-        <Key>obj\x86\Debug\Shuttle_0.xml</Key>
-        <Value>2013-02-17T10:30:03.3452172+00:00</Value>
+        <Key>obj\x86\Debug\Models\Shuttle_0.xml</Key>
+        <Value>2013-02-17T16:11:34.5375545+00:00</Value>
       </Dependency>
-      <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\UnderHull1_0.xnb</Request>
-      <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Fin1_0.xnb</Request>
-      <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Mainhul1_0.xnb</Request>
-      <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Tail1_0.xnb</Request>
-      <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Wing1_0.xnb</Request>
-      <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\EA_Fury_Tiney_Pa1_0.xnb</Request>
-      <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\mainePane1_0.xnb</Request>
+      <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\UnderHull1_0.xnb</Request>
+      <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Fin1_0.xnb</Request>
+      <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Mainhul1_0.xnb</Request>
+      <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Tail1_0.xnb</Request>
+      <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Wing1_0.xnb</Request>
+      <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\EA_Fury_Tiney_Pa1_0.xnb</Request>
+      <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\mainePane1_0.xnb</Request>
     </Item>
     <Item>
-      <Source>sphere.fbx</Source>
-      <Name>sphere</Name>
+      <Source>Models\sphere.fbx</Source>
+      <Name>Models\sphere</Name>
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\sphere.xnb</Output>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\sphere.xnb</Output>
       <Time>2013-02-17T10:17:37.9630106+00:00</Time>
       <Dependency>
-        <Key>obj\x86\Debug\sphere_0.xml</Key>
-        <Value>2013-02-17T10:30:04.1152183+00:00</Value>
+        <Key>obj\x86\Debug\Models\sphere_0.xml</Key>
+        <Value>2013-02-17T16:13:51.7255252+00:00</Value>
       </Dependency>
     </Item>
     <Item>
-      <Source>SkySphere\SphereHighPoly.fbx</Source>
-      <Name>SkySphere\SphereHighPoly</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\SkySphere\SphereHighPoly.xnb</Output>
-      <Time>2013-02-17T10:17:37.8930105+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\SkySphere\SphereHighPoly_0.xml</Key>
-        <Value>2013-02-17T10:30:04.2752185+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>SkySphere.fx</Source>
-      <Name>SkySphere</Name>
-      <Importer>EffectImporter</Importer>
-      <Processor>EffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\SkySphere.xnb</Output>
-      <Time>2013-02-17T10:17:36.2830083+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Verdana.spritefont</Source>
-      <Name>Verdana</Name>
+      <Source>Fonts\Verdana.spritefont</Source>
+      <Name>Fonts\Verdana</Name>
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Verdana.xnb</Output>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Fonts\Verdana.xnb</Output>
       <Time>2013-02-17T10:17:37.8930105+00:00</Time>
     </Item>
     <Item>
-      <Source>fighter.x</Source>
+      <Source>Models\fighter.x</Source>
       <Importer>XImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\fighter_0.xml</Output>
+      <Output>obj\x86\Debug\Models\fighter_0.xml</Output>
       <Time>2013-02-17T10:17:37.9030106+00:00</Time>
     </Item>
     <Item>
-      <Source>thor.jpg</Source>
+      <Source>Models\thor.jpg</Source>
+      <Name>Models\thor</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
       <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\thor_0.xnb</Output>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\thor.xnb</Output>
       <Time>2013-02-17T10:17:37.9730107+00:00</Time>
     </Item>
     <Item>
-      <Source>Ship1.fbx</Source>
+      <Source>Models\thor.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\thor_0.xnb</Output>
+      <Time>2013-02-17T10:17:37.9730107+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Ship1.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Ship1_0.xml</Output>
+      <Output>obj\x86\Debug\Models\Ship1_0.xml</Output>
       <Time>2013-02-17T10:17:36.2330082+00:00</Time>
     </Item>
     <Item>
-      <Source>Metal_Corrogated_Rust.jpg</Source>
+      <Source>Models\Metal_Corrogated_Rust.jpg</Source>
+      <Name>Models\Metal_Corrogated_Rust</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
       <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Metal_Corrogated_Rust_0.xnb</Output>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Metal_Corrogated_Rust.xnb</Output>
       <Time>2013-02-17T10:17:36.2030082+00:00</Time>
     </Item>
     <Item>
-      <Source>ship2.fbx</Source>
+      <Source>Models\Metal_Corrogated_Rust.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Metal_Corrogated_Rust_0.xnb</Output>
+      <Time>2013-02-17T10:17:36.2030082+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\ship2.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\ship2_0.xml</Output>
+      <Output>obj\x86\Debug\Models\ship2_0.xml</Output>
       <Time>2013-02-17T10:17:37.9630106+00:00</Time>
     </Item>
     <Item>
-      <Source>Shuttle.fbx</Source>
+      <Source>Models\Shuttle.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Shuttle_0.xml</Output>
+      <Output>obj\x86\Debug\Models\Shuttle_0.xml</Output>
       <Time>2013-02-17T10:17:36.2830083+00:00</Time>
     </Item>
     <Item>
-      <Source>UnderHull1.JPG</Source>
+      <Source>Models\UnderHull1.JPG</Source>
+      <Name>Models\UnderHull1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
       <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\UnderHull1_0.xnb</Output>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\UnderHull1.xnb</Output>
       <Time>2013-02-17T10:17:37.8930105+00:00</Time>
     </Item>
     <Item>
-      <Source>Fin1.JPG</Source>
+      <Source>Models\UnderHull1.JPG</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -322,75 +231,20 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Fin1_0.xnb</Output>
-      <Time>2013-02-17T10:17:36.1930082+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Mainhul1.JPG</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Mainhul1_0.xnb</Output>
-      <Time>2013-02-17T10:17:36.1930082+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Tail1.JPG</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Tail1_0.xnb</Output>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\UnderHull1_0.xnb</Output>
       <Time>2013-02-17T10:17:37.8930105+00:00</Time>
     </Item>
     <Item>
-      <Source>Wing1.JPG</Source>
+      <Source>Models\Fin1.JPG</Source>
+      <Name>Models\Fin1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
       <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Wing1_0.xnb</Output>
-      <Time>2013-02-17T10:17:37.9030106+00:00</Time>
-    </Item>
-    <Item>
-      <Source>EA_Fury_Tiney_Pa1.JPG</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\EA_Fury_Tiney_Pa1_0.xnb</Output>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Fin1.xnb</Output>
       <Time>2013-02-17T10:17:36.1930082+00:00</Time>
     </Item>
     <Item>
-      <Source>mainePane1.JPG</Source>
+      <Source>Models\Fin1.JPG</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -402,22 +256,205 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\mainePane1_0.xnb</Output>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Fin1_0.xnb</Output>
+      <Time>2013-02-17T10:17:36.1930082+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Mainhul1.JPG</Source>
+      <Name>Models\Mainhul1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Mainhul1.xnb</Output>
+      <Time>2013-02-17T10:17:36.1930082+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Mainhul1.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Mainhul1_0.xnb</Output>
+      <Time>2013-02-17T10:17:36.1930082+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Tail1.JPG</Source>
+      <Name>Models\Tail1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Tail1.xnb</Output>
+      <Time>2013-02-17T10:17:37.8930105+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Tail1.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Tail1_0.xnb</Output>
+      <Time>2013-02-17T10:17:37.8930105+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Wing1.JPG</Source>
+      <Name>Models\Wing1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Wing1.xnb</Output>
       <Time>2013-02-17T10:17:37.9030106+00:00</Time>
     </Item>
     <Item>
-      <Source>sphere.fbx</Source>
+      <Source>Models\Wing1.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Wing1_0.xnb</Output>
+      <Time>2013-02-17T10:17:37.9030106+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\EA_Fury_Tiney_Pa1.JPG</Source>
+      <Name>Models\EA_Fury_Tiney_Pa1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\EA_Fury_Tiney_Pa1.xnb</Output>
+      <Time>2013-02-17T10:17:36.1930082+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\EA_Fury_Tiney_Pa1.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\EA_Fury_Tiney_Pa1_0.xnb</Output>
+      <Time>2013-02-17T10:17:36.1930082+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\mainePane1.JPG</Source>
+      <Name>Models\mainePane1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\mainePane1.xnb</Output>
+      <Time>2013-02-17T10:17:37.9030106+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\mainePane1.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\mainePane1_0.xnb</Output>
+      <Time>2013-02-17T10:17:37.9030106+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\sphere.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\sphere_0.xml</Output>
+      <Output>obj\x86\Debug\Models\sphere_0.xml</Output>
       <Time>2013-02-17T10:17:37.9630106+00:00</Time>
     </Item>
     <Item>
-      <Source>SkySphere\SphereHighPoly.fbx</Source>
+      <Source>Textures\BuckRogersDVD-box.jpg</Source>
+      <Name>Textures\BuckRogersDVD-box</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Textures\BuckRogersDVD-box.xnb</Output>
+      <Time>2013-02-17T10:17:36.1830082+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Ground.bmp</Source>
+      <Name>Textures\Ground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Textures\Ground.xnb</Output>
+      <Time>2013-02-17T10:17:36.1930082+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\oldGround.bmp</Source>
+      <Name>Textures\oldGround</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Textures\oldGround.xnb</Output>
+      <Time>2013-02-17T10:17:37.9130106+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\SkySphere.fx</Source>
+      <Name>Effects\SkySphere</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Effects\SkySphere.xnb</Output>
+      <Time>2013-02-17T10:17:36.2830083+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\SphereHighPoly.fbx</Source>
+      <Name>Models\SphereHighPoly</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\SphereHighPoly.xnb</Output>
+      <Time>2013-02-17T10:17:37.8930105+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\SphereHighPoly_0.xml</Key>
+        <Value>2013-02-17T16:20:49.3443434+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\SphereHighPoly.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\SkySphere\SphereHighPoly_0.xml</Output>
+      <Output>obj\x86\Debug\Models\SphereHighPoly_0.xml</Output>
       <Time>2013-02-17T10:17:37.8930105+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\SkySphereTexture.dds</Source>
+      <Name>Textures\SkySphereTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Textures\SkySphereTexture.xnb</Output>
+      <Time>2013-02-17T10:17:37.8530105+00:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

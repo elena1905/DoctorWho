@@ -118,13 +118,13 @@ namespace DoctorWho
 
         {
 
-            mysong = Content.Load<Song>("138");
-            brTexture = Content.Load<Texture2D>("BuckRogersDVD-box");
+            mysong = Content.Load<Song>(@"Sounds\138");
+            brTexture = Content.Load<Texture2D>(@"Textures\BuckRogersDVD-box");
 
             
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            spriteFont = XNAGame.Instance().Content.Load<SpriteFont>("Verdana");
+            spriteFont = XNAGame.Instance().Content.Load<SpriteFont>(@"Fonts\Verdana");
 
             foreach (Entity child in children)
             {

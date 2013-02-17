@@ -31,14 +31,12 @@ namespace DoctorWho
         public override void LoadContent()
         {
 
-            SkySphereModel = XNAGame.Instance().Content.Load<Model>("SkySphere/SphereHighPoly");
-            TextureCube SkySphereTexture = XNAGame.Instance().Content.Load<TextureCube>("SkySphere/SkySphereTexture");
-            SkySphereEffect = XNAGame.Instance().Content.Load<Effect>("SkySphere");
+            SkySphereModel = XNAGame.Instance().Content.Load<Model>(@"Models\SphereHighPoly");
+            TextureCube SkySphereTexture = XNAGame.Instance().Content.Load<TextureCube>(@"Textures\SkySphereTexture");
+            SkySphereEffect = XNAGame.Instance().Content.Load<Effect>(@"Effects\SkySphere");
             SkySphereEffect.Parameters["ViewMatrix"].SetValue(XNAGame.Instance().Camera.view);
             SkySphereEffect.Parameters["ProjectionMatrix"].SetValue(XNAGame.Instance().Camera.projection);
             SkySphereEffect.Parameters["SkyboxTexture"].SetValue(SkySphereTexture);
-
-            SkySphereEffect = XNAGame.Instance().Content.Load<Effect>("SkySphere");
 
             foreach (ModelMesh mesh in SkySphereModel.Meshes)
             {

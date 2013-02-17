@@ -29,7 +29,7 @@ namespace DoctorWho
         }
         public override void LoadContent()
         {
-            model = XNAGame.Instance().Content.Load<Model>("sphere");
+            model = XNAGame.Instance().Content.Load<Model>(@"Models\Sphere");
         }
 
         public override void UnloadContent()
