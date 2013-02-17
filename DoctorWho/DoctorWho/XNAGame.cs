@@ -21,6 +21,7 @@ namespace DoctorWho
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         Fighter camFighter;
+        Sound Sound { get; set; }
         
 
         public Fighter CamFighter
@@ -94,6 +95,9 @@ namespace DoctorWho
             
             // TODO: Add your initialization logic here
             camera = new Camera();
+
+            Sound = new Sound();
+            children.Add(Sound);
 
             SkySphere skySphere = new SkySphere();
             children.Add(skySphere);

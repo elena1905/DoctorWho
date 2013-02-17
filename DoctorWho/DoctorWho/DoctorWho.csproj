@@ -123,6 +123,7 @@
     <Compile Include="Ray.cs" />
     <Compile Include="Scenario.cs" />
     <Compile Include="SkySphere.cs" />
+    <Compile Include="Sound.cs" />
     <Compile Include="Sphere.cs" />
     <Compile Include="State.cs" />
     <Compile Include="SteeringBehavoiurs.cs" />

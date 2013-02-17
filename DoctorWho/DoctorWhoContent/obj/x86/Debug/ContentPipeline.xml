@@ -493,6 +493,15 @@
       <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\thor_0.xnb</Output>
       <Time>2013-02-17T10:17:37.9730107+00:00</Time>
     </Item>
+    <Item>
+      <Source>Sounds\Theme.wav</Source>
+      <Name>Sounds\Theme</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Sounds\Theme.xnb</Output>
+      <Time>2013-02-17T22:15:45.8239422+00:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

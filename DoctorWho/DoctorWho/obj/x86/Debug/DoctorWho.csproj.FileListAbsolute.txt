@@ -40,3 +40,4 @@ D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\obj\
 D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\obj\x86\Debug\DoctorWho.exe
 D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\obj\x86\Debug\DoctorWho.pdb
+D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Sounds\Theme.xnb
