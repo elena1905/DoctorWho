@@ -96,6 +96,7 @@ namespace DoctorWho
             steeringBehaviours = new SteeringBehaviours(this);
             drawAxis = false;
             Solid = true;
+            //modelName = @"Models\StarDestroyer";
             modelName = @"Models\Tardis";
             //modelName = "fighter";
         }
