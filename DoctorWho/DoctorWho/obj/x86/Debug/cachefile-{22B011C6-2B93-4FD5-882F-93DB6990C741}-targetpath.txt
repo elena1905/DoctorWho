@@ -18,7 +18,6 @@ Content\Models\Shuttle.xnb
 Content\Models\Sphere.xnb
 Content\Models\SphereHighPoly.xnb
 Content\Models\Tardis.xnb
-Content\Models\ViperMkVII.xnb
 Content\Models\Ship2.xnb
 Content\Effects\SkySphere.xnb
 Content\Fonts\Verdana.xnb
@@ -32,6 +31,6 @@ Content\Models\Wing1_0.xnb
 Content\Models\EA_Fury_Tiney_Pa1_0.xnb
 Content\Models\mainePane1_0.xnb
 Content\FBX\D4922827\Tardis.fbm\TardisImage_0.xnb
-Content\FBX\7B3529E6\ViperMkVII.fbm\colmftr2cox_0.xnb
 Content\Models\thor_0.xnb
 Content\Sounds\Theme.xnb
+Content\Models\DarlekShip.xnb

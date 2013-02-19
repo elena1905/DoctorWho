@@ -96,9 +96,22 @@ namespace DoctorWho
             steeringBehaviours = new SteeringBehaviours(this);
             drawAxis = false;
             Solid = true;
-            //modelName = @"Models\StarDestroyer";
             modelName = @"Models\Tardis";
             //modelName = "fighter";
+        }
+
+        public Fighter(string followerName)
+        {
+            worldTransform = Matrix.Identity;
+            pos = new Vector3(0, 10, 0);
+            look = new Vector3(0, 0, -1);
+            right = new Vector3(1, 0, 0);
+            up = new Vector3(0, 1, 0);
+            globalUp = new Vector3(0, 1, 0);
+            steeringBehaviours = new SteeringBehaviours(this);
+            drawAxis = false;
+            Solid = true;
+            modelName = followerName;
         }
 
         public override void LoadContent()

@@ -17,7 +17,6 @@ D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\
 D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Sphere.xnb
 D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\SphereHighPoly.xnb
 D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Tardis.xnb
-D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\ViperMkVII.xnb
 D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\Ship2.xnb
 D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Effects\SkySphere.xnb
 D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Fonts\Verdana.xnb
@@ -31,7 +30,6 @@ D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\
 D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\EA_Fury_Tiney_Pa1_0.xnb
 D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\mainePane1_0.xnb
 D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\FBX\D4922827\Tardis.fbm\TardisImage_0.xnb
-D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\FBX\7B3529E6\ViperMkVII.fbm\colmftr2cox_0.xnb
 D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\thor_0.xnb
 D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Sounds\138.wma
 D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\DoctorWho.exe
@@ -41,3 +39,4 @@ D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\obj\
 D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\obj\x86\Debug\DoctorWho.exe
 D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\obj\x86\Debug\DoctorWho.pdb
 D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Sounds\Theme.xnb
+D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\DarlekShip.xnb

@@ -183,7 +183,7 @@ namespace DoctorWho
                 for (int j = 0; j < i; j++)
                 {
                     float z = (i - 1) * +zOff;
-                    Fighter fleet = new Fighter();
+                    Fighter fleet = new Fighter(@"Models\DarlekShip");
                     fleet.Leader = leader;
                     fleet.offset = new Vector3((xOff * (-i / 2.0f)) + (j * xOff), 0, z);
                     fleet.pos = leader.pos + fleet.offset;

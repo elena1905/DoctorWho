@@ -203,20 +203,6 @@
       <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\FBX\D4922827\Tardis.fbm\TardisImage_0.xnb</Request>
     </Item>
     <Item>
-      <Source>Models\ViperMkVII.FBX</Source>
-      <Name>Models\ViperMkVII</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\ViperMkVII.xnb</Output>
-      <Time>2013-02-17T21:02:16.4396843+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Models\ViperMkVII_0.xml</Key>
-        <Value>2013-02-17T21:08:19.3228708+00:00</Value>
-      </Dependency>
-      <Request>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\FBX\7B3529E6\ViperMkVII.fbm\colmftr2cox_0.xnb</Request>
-    </Item>
-    <Item>
       <Source>Models\Ship2.fbx</Source>
       <Name>Models\Ship2</Name>
       <Importer>FbxImporter</Importer>
@@ -441,29 +427,6 @@
       <Time>2013-02-17T21:08:18.0748686+00:00</Time>
     </Item>
     <Item>
-      <Source>Models\ViperMkVII.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Models\ViperMkVII_0.xml</Output>
-      <Time>2013-02-17T21:02:16.4396843+00:00</Time>
-    </Item>
-    <Item>
-      <Source>obj\x86\Debug\FBX\7B3529E6\ViperMkVII.fbm\colmftr2cox.bmp</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\FBX\7B3529E6\ViperMkVII.fbm\colmftr2cox_0.xnb</Output>
-      <Time>2013-02-17T21:08:19.2448706+00:00</Time>
-    </Item>
-    <Item>
       <Source>Models\Ship2.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
@@ -501,6 +464,30 @@
       <Options>None</Options>
       <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Sounds\Theme.xnb</Output>
       <Time>2013-02-17T22:15:45.8239422+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\DarlekShip.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\DarlekShip_0.xml</Output>
+      <Time>2013-02-19T10:21:35.0842199+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\DarlekShip.FBX</Source>
+      <Name>Models\DarlekShip</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.4</Data>
+        <Data Key="RotationX">-90</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\ProgramData\VisualStudio2010\GamesEngines2\DoctorWho\DoctorWho\DoctorWho\bin\x86\Debug\Content\Models\DarlekShip.xnb</Output>
+      <Time>2013-02-19T10:21:35.0842199+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\DarlekShip_0.xml</Key>
+        <Value>2013-02-19T10:21:59.7866328+00:00</Value>
+      </Dependency>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
